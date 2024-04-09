@@ -1,0 +1,41 @@
+{
+  "name": "cardano_whale_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlatypusAlpha/Cardano_whale_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlatypusAlpha/Cardano_whale_bot/issues"
+  },
+  "homepage": "https://github.com/PlatypusAlpha/Cardano_whale_bot#readme",
+  "dependencies": {
+    "@blockfrost/blockfrost-js": "^5.3.1",
+    "@emurgo/cardano-serialization-lib-nodejs": "^11.4.0",
+    "@minswap/blockfrost-adapter": "^0.1.0",
+    "body-parser": "^1.20.2",
+    "cbor": "^9.0.0",
+    "cors": "^2.8.5",
+    "decimal.js": "^10.4.3",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "http-status": "^1.6.2",
+    "jsbn": "^1.1.0",
+    "lucid-cardano": "^0.10.6",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "validator": "^13.9.0"
+  }
+}
